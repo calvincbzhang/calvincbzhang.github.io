@@ -18,7 +18,7 @@ social: false # includes social icons at the bottom of the page
 Hello! WIP 🏗️
 
 <p style="text-align:center">
-  <a href="https://scholar.google.com/citations?hl=en&user=OlyylgMAAAAJ">Google Scholar</a> &nbsp;/&nbsp;
+  <a href="https://scholar.google.com/citations?hl=en&user=OlyylgMAAAAJ">Scholar</a> &nbsp;/&nbsp;
   <a href="https://twitter.com/calvincbzhang">Twitter</a> &nbsp;/&nbsp;
   <a href="https://github.com/calvincbzhang">GitHub</a> &nbsp;/&nbsp;
   <a href="https://www.linkedin.com/in/calvincbzhang">LinkedIn</a>
