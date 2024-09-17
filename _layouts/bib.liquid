@@ -40,6 +40,16 @@
             alt=entry.preview
           %}
         {% endif %}
+      {% else %}
+        {%
+          include figure.liquid
+          loading="eager"
+          path='/assets/img/publication_preview/brain.jpg'
+          sizes = "200px"
+          class="preview z-depth-1 rounded"
+          zoomable=true
+          alt=entry.preview
+        %}
       {% endif %}
     </div>
   {% endif %}

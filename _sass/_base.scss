@@ -18,7 +18,18 @@ span,
 strong {
   color: var(--global-text-color);
   // font-family: "JetBrains Mono", monospace;
-  font-family: "Roboto Mono", monospace;
+  // font-family: "Roboto Mono", monospace;
+  // font-family: "Roboto", sans-serif;
+  // font-family: "Inria Sans", sans-serif;
+  // font-family: "Open Sans", sans-serif;
+  // font-family: "Poppins", sans-serif;
+  // font-family: "Lato", sans-serif;
+  // font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans Mono", monospace;
+}
+
+p {
+  text-align: justify;
 }
 
 hr {
@@ -210,11 +221,11 @@ ul.task-list input[type="checkbox"] {
 }
 
 .profile.float-right {
-  margin-left: 1rem;
+  margin-left: 1.5rem;
 }
 
 .profile.float-left {
-  margin-right: 1rem;
+  margin-right: 1.5rem;
 }
 
 @media (min-width: 576px) {
