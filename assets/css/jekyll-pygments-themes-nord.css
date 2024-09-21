@@ -1,0 +1,150 @@
+/* Custom Nord Theme Pygments CSS */
+
+/* Background */
+.highlight pre {
+    background-color: #2E3440; /* Background color */
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    overflow: auto;
+    font-family: Consolas, "Courier New", Courier, monospace;
+    line-height: 1.5;
+  }
+  
+  /* General */
+  .highlight .hll {
+    background-color: #3B4252; /* Highlighted line */
+  }
+  .highlight .g,
+  .highlight .l,
+  .highlight .n,
+  .highlight .p,
+  .highlight .x,
+  .highlight .nl {
+    color: #d8dee9; /* Default text color */
+  }
+  
+  /* Comments */
+  .highlight .c,
+  .highlight .cm,
+  .highlight .c1 {
+    color: #616e87; /* Comments */
+    font-style: italic;
+  }
+  .highlight .cp {
+    color: #5e81ac; /* Preprocessor comments */
+    font-weight: bold;
+  }
+  .highlight .cs {
+    color: #bf616a; /* Special comments */
+    font-weight: bold;
+    background-color: #3b4252;
+  }
+  
+  /* Keywords */
+  .highlight .k,
+  .highlight .kc,
+  .highlight .kd,
+  .highlight .kn,
+  .highlight .kr,
+  .highlight .kt,
+  .highlight .ow,
+  .highlight .nt {
+    color: #81a1c1; /* Keywords */
+    font-weight: bold;
+  }
+  
+  /* Strings */
+  .highlight .s,
+  .highlight .sb,
+  .highlight .sc,
+  .highlight .sd,
+  .highlight .s2,
+  .highlight .se,
+  .highlight .sh,
+  .highlight .si,
+  .highlight .sr,
+  .highlight .s1,
+  .highlight .ss {
+    color: #a3be8c; /* Strings */
+  }
+  
+  /* Numbers */
+  .highlight .m,
+  .highlight .mf,
+  .highlight .mh,
+  .highlight .mi,
+  .highlight .mo,
+  .highlight .il {
+    color: #b48ead; /* Numbers */
+  }
+  
+  /* Names */
+  .highlight .na {
+    color: #d8dee9; /* Attributes */
+  }
+  .highlight .nb {
+    color: #81a1c1; /* Builtins */
+  }
+  .highlight .nc,
+  .highlight .nn,
+  .highlight .nf {
+    color: #8fbcbb; /* Class and function names */
+  }
+  .highlight .no,
+  .highlight .nv,
+  .highlight .vc,
+  .highlight .vg,
+  .highlight .vi {
+    color: #d8dee9; /* Constants and variables */
+  }
+  .highlight .nd {
+    color: #d08770; /* Decorators */
+  }
+  .highlight .ne {
+    color: #bf616a; /* Exceptions */
+  }
+  .highlight .bp {
+    color: #81a1c1; /* Built-in pseudo */
+  }
+  
+  /* Error Handling */
+  .highlight .err,
+  .highlight .gr,
+  .highlight .gt {
+    color: #bf616a; /* Errors and tracebacks */
+    background-color: #3b4252; /* Error background */
+  }
+  
+  /* Generics */
+  .highlight .ge {
+    color: #d8dee9;
+    font-style: italic; /* Emphasis */
+  }
+  .highlight .gh,
+  .highlight .gs {
+    color: #88c0d0;
+    font-weight: bold; /* Headings and strong emphasis */
+  }
+  .highlight .gi {
+    color: #a3be8c; /* Inserted content */
+  }
+  .highlight .gd {
+    color: #bf616a; /* Deleted content */
+  }
+  .highlight .go {
+    color: #eceff4; /* Output */
+  }
+  .highlight .gp {
+    color: #616e87; /* Prompt */
+  }
+  .highlight .gu {
+    color: #88c0d0;
+    text-decoration: underline; /* Subheading */
+  }
+  
+  /* Operators */
+  .highlight .o {
+    color: #81a1c1; /* Operators */
+  }
+  

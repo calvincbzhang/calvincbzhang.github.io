@@ -38,8 +38,10 @@ $dark-theme-accent: #29bc88 !default;
 
 // Theme colors
 
-$code-bg-color-light: rgba($light-theme-accent, 0.05);
-$code-bg-color-dark: rgba($dark-theme-accent, 0.05);
+// $code-bg-color-light: rgba($light-theme-accent, 0.05);
+// $code-bg-color-dark: rgba($dark-theme-accent, 0.05);
+$code-bg-color-light: #2c3237 !default;
+$code-bg-color-dark: #2c3237 !default;
 
 // Font awesome location
 $fa-font-path: "../webfonts";
