@@ -24,7 +24,7 @@ I hold an MSc in Data Science from [ETH Zurich](https://ethz.ch/en.html), where 
 
 Earlier, I completed my BSc (Hons) in Computer Science and Mathematics at the [University of Manchester](https://www.manchester.ac.uk/), where I researched adversarial attacks in deep reinforcement learning under the supervision of [Tingting Mu](https://personalpages.manchester.ac.uk/staff/tingting.mu/Site/About_Me.html).
 
-My research interests lie in **robust sequential decision making** and **AI alignment**, with applications to **autonomous agents** and **robotics**. I aim to develop algorithms that enable agents to make reliable and safe decisions over long time horizons, even in complex and unpredictable environments.
+I am interested in **safe generalization in sequential decision making** and **AI alignment**, with applications to **autonomous agents** and **robotics**. I aim to develop algorithms that enable agents to make reliable and safe decisions over long time horizons, even in complex and unpredictable environments.
 
 <p style="text-align:center">
   <a href="https://scholar.google.com/citations?hl=en&user=OlyylgMAAAAJ">Google Scholar</a> &nbsp;/&nbsp;
