@@ -1,0 +1,169 @@
+/* Custom Dark Theme Pygments CSS */
+
+/* Background */
+.highlight pre {
+  background-color: #1d2331; /* Background color from COLORS['bg'] */
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  overflow: auto;
+  font-family: "Consolas, "Courier New", Courier", monospace;
+  line-height: 1.5;
+}
+
+/* Custom Scrollbar */
+.highlight pre::-webkit-scrollbar {
+  width: 5px; /* Width of the scrollbar */
+}
+
+.highlight pre::-webkit-scrollbar-track {
+  background: #1d2331; /* Background of the scrollbar track */
+  border-radius: 5px; /* Rounded corners for the track */
+}
+
+.highlight pre::-webkit-scrollbar-thumb {
+  background: #3c4354; /* Color of the scrollbar thumb */
+  border-radius: 5px; /* Rounded corners for the thumb */
+}
+
+.highlight pre::-webkit-scrollbar-thumb:hover {
+  background: #5a6378; /* Color of the scrollbar thumb on hover */
+}
+
+/* General */
+.highlight .hll {
+  background-color: #3c4354; /* Highlighted line from COLORS['gray_2'] */
+}
+.highlight .g,
+.highlight .l,
+.highlight .n,
+.highlight .p,
+.highlight .x,
+.highlight .nl {
+  color: #d4d2c8; /* Default text color from COLORS['white'] */
+}
+
+/* Comments */
+.highlight .c,
+.highlight .cm,
+.highlight .c1 {
+  color: #7e8aa1; /* Comments color from COLORS['gray_1'] */
+  font-style: italic;
+}
+.highlight .cp {
+  color: #FFAD66; /* Preprocessor comments color from COLORS['orange_1'] */
+  font-weight: bold;
+}
+.highlight .cs {
+  color: #f88f7f; /* Special comments color from COLORS['red_1'] */
+  font-style: italic;
+}
+
+/* Keywords */
+.highlight .k,
+.highlight .kc,
+.highlight .kd,
+.highlight .kn,
+.highlight .kr,
+.highlight .kt,
+.highlight .ow,
+.highlight .nt {
+  color: #FFAD66; /* Keywords color from COLORS['orange_1'] */
+  font-weight: bold;
+}
+
+/* Strings */
+.highlight .s,
+.highlight .sb,
+.highlight .sc,
+.highlight .sd,
+.highlight .s2,
+.highlight .se,
+.highlight .sh,
+.highlight .si,
+.highlight .sr,
+.highlight .s1,
+.highlight .ss {
+  color: #D5FF80; /* Strings color from COLORS['green_1'] */
+}
+
+/* Numbers */
+.highlight .m,
+.highlight .mf,
+.highlight .mh,
+.highlight .mi,
+.highlight .mo,
+.highlight .il {
+  color: #DFBFFF; /* Numbers color from COLORS['magenta_1'] */
+}
+
+/* Names */
+.highlight .na {
+  color: #FFD173; /* Attribute names color from COLORS['yellow_1'] */
+}
+.highlight .nb {
+  color: #FFD173; /* Builtin names color from COLORS['yellow_1'] */
+}
+.highlight .nc,
+.highlight .nn,
+.highlight .nf {
+  color: #73D0FF; /* Class and function names color from COLORS['blue_1'] */
+}
+.highlight .no,
+.highlight .nv,
+.highlight .vc,
+.highlight .vg,
+.highlight .vi {
+  color: #d4d2c8; /* Constants and variables color from COLORS['white'] */
+}
+.highlight .nd {
+  color: #7e8aa1; /* Decorators color from COLORS['gray_1'] */
+  font-weight: bold;
+  font-style: italic;
+}
+.highlight .ne {
+  color: #73D0FF; /* Exception names color from COLORS['blue_1'] */
+}
+.highlight .bp {
+  color: #5CCFE6; /* Builtin pseudo color from COLORS['blue_1'] */
+}
+
+/* Error Handling */
+.highlight .err,
+.highlight .gr,
+.highlight .gt {
+  color: #f88f7f; /* Errors and tracebacks color from COLORS['red_1'] */
+  background-color: #e3d2d2; /* Light red background */
+}
+
+/* Generics */
+.highlight .ge {
+  color: #d4d2c8; /* Emphasis color from COLORS['white'] */
+  font-style: italic; /* Emphasis */
+}
+.highlight .gh,
+.highlight .gs {
+  color: #d4d2c8; /* Headings and strong emphasis color from COLORS['white'] */
+  font-weight: bold;
+}
+.highlight .gi {
+  color: #589819; /* Inserted content (custom color) */
+}
+.highlight .gd {
+  color: #f88f7f; /* Deleted content color from COLORS['red_1'] */
+}
+.highlight .go {
+  color: #7e8aa1; /* Output color from COLORS['gray_1'] */
+}
+.highlight .gp {
+  color: #7e8aa1; /* Prompt color from COLORS['gray_1'] */
+}
+.highlight .gu {
+  color: #d4d2c8; /* Subheading color from COLORS['white'] */
+  text-decoration: underline;
+}
+
+/* Operators */
+.highlight .o {
+  color: #FFAD66; /* Operators color from COLORS['orange_1'] */
+}

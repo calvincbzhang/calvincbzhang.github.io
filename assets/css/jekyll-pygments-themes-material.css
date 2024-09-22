@@ -1,0 +1,147 @@
+/* Custom Material Theme Pygments CSS */
+
+/* Background */
+.highlight pre {
+  background-color: #263238; /* Dark teal background */
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  overflow: auto;
+  font-family: Consolas, "Courier New", Courier, monospace;
+  line-height: 1.5;
+}
+
+/* General */
+.highlight .hll {
+  background-color: #2C3B41; /* Highlighted line */
+}
+.highlight .g,
+.highlight .l,
+.highlight .n,
+.highlight .p,
+.highlight .x,
+.highlight .nl {
+  color: #EEFFFF; /* Default text color */
+}
+
+/* Comments */
+.highlight .c,
+.highlight .cm,
+.highlight .c1 {
+  color: #546E7A; /* Faded for comments */
+  font-style: italic;
+}
+.highlight .cp {
+  color: #FF5370; /* Preprocessor comments */
+  font-weight: bold;
+}
+.highlight .cs {
+  color: #F78C6C; /* Special comments */
+}
+
+/* Keywords */
+.highlight .k,
+.highlight .kc,
+.highlight .kd,
+.highlight .kn,
+.highlight .kr,
+.highlight .kt,
+.highlight .ow,
+.highlight .nt {
+  color: #BB80B3; /* Violet keywords */
+  font-weight: bold;
+}
+
+/* Strings */
+.highlight .s,
+.highlight .sb,
+.highlight .sc,
+.highlight .sd,
+.highlight .s2,
+.highlight .se,
+.highlight .sh,
+.highlight .si,
+.highlight .sr,
+.highlight .s1,
+.highlight .ss {
+  color: #C3E88D; /* Green for strings */
+}
+
+/* Numbers */
+.highlight .m,
+.highlight .mf,
+.highlight .mh,
+.highlight .mi,
+.highlight .mo,
+.highlight .il {
+  color: #F78C6C; /* Orange for numbers */
+}
+
+/* Names */
+.highlight .na {
+  color: #EEFFFF; /* Light color for attributes */
+}
+.highlight .nb {
+  color: #82AAFF; /* Blue for builtins */
+}
+.highlight .nc,
+.highlight .nn,
+.highlight .nf {
+  color: #89DDFF; /* Cyan for class and function names */
+}
+.highlight .no,
+.highlight .nv,
+.highlight .vc,
+.highlight .vg,
+.highlight .vi {
+  color: #89DDFF; /* Cyan for constants and variables */
+}
+.highlight .nd {
+  color: #82AAFF; /* Blue for decorators */
+}
+.highlight .ne {
+  color: #EEFFFF; /* Light color for exceptions */
+}
+.highlight .bp {
+  color: #82AAFF; /* Blue for built-in pseudo */
+}
+
+/* Error Handling */
+.highlight .err,
+.highlight .gr,
+.highlight .gt {
+  color: #FF5370; /* Red for errors and tracebacks */
+  background-color: #FFEBEE; /* Light red background */
+}
+
+/* Generics */
+.highlight .ge {
+  color: #EEFFFF;
+  font-style: italic; /* Emphasis */
+}
+.highlight .gh,
+.highlight .gs {
+  color: #EEFFFF;
+  font-weight: bold; /* Headings and strong emphasis */
+}
+.highlight .gi {
+  color: #C3E88D; /* Inserted content */
+}
+.highlight .gd {
+  color: #FF5370; /* Deleted content */
+}
+.highlight .go {
+  color: #546E7A; /* Output */
+}
+.highlight .gp {
+  color: #EEFFFF; /* Prompt */
+}
+.highlight .gu {
+  color: #EEFFFF;
+  text-decoration: underline; /* Subheading */
+}
+
+/* Operators */
+.highlight .o {
+  color: #89DDFF; /* Light cyan for operators */
+}
