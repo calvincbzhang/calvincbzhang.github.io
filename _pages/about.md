@@ -20,15 +20,15 @@ scholar:
   order: descending
 ---
 
-I am currently the ML Research Ops Lead at [Scale AI](https://scale.com/), where I work on evaluations, benchmarks and leaderboards.
+I am the ML Research Ops Lead at [Scale AI](https://scale.com/), where I focus on designing and running evaluations, developing benchmarks, and managing leaderboards.
 
-Before joining Scale AI, I was a research intern at [CHAI](https://humancompatible.ai/), where I worked with [Micah Carroll](https://micahcarroll.github.io/) on red teaming large language models. I also spent time as a visiting scholar at [MIT](https://mit.edu/), where I focused on online learning and reward design for reinforcement learning. During that time, I was fortunate to collaborate with [Zhang-Wei Hong](https://williamd4112.github.io/), [Aldo Pacchiano](https://www.aldopacchiano.ai/), and [Pulkit Agrawal](https://people.csail.mit.edu/pulkitag/).
+Previously, I was a research intern at [CHAI](https://humancompatible.ai/), where I worked with [Micah Carroll](https://micahcarroll.github.io/) on multi-turn red teaming strategies for large language models. I also spent time as a visiting scholar at [MIT](https://mit.edu/), where I focused on online learning and reward design for reinforcement learning, working with [Zhang-Wei Hong](https://williamd4112.github.io/), [Aldo Pacchiano](https://www.aldopacchiano.ai/), and [Pulkit Agrawal](https://people.csail.mit.edu/pulkitag/).
 
-I hold an MSc in Data Science from [ETH Zurich](https://ethz.ch/en.html), where I worked with [Giorgia Ramponi](https://gioramponi.github.io/) on preference-based reinforcement learning.
+I received my MSc in Data Science from [ETH Zurich](https://ethz.ch/en.html), where I conducted reserach in preference-based reinforcement learning with [Giorgia Ramponi](https://gioramponi.github.io/).
 
-Earlier, I completed my BSc (Hons) in Computer Science and Mathematics at the [University of Manchester](https://www.manchester.ac.uk/), where I researched adversarial attacks in deep reinforcement learning under the supervision of [Tingting Mu](https://personalpages.manchester.ac.uk/staff/tingting.mu/Site/About_Me.html).
+Earlier, I completed my BSc (Hons) in Computer Science and Mathematics from the [University of Manchester](https://www.manchester.ac.uk/), with a focus on adversarial attacks in deep reinforcement learning under the supervision of [Tingting Mu](https://personalpages.manchester.ac.uk/staff/tingting.mu/Site/About_Me.html).
 
-I am interested in **sequential decision making** and **AI safety and alignment**.
+My research interests include **evaluation methodologies**, **agents**, **sequential decision making**, and **AI safety and alignment**.
 
 <p style="text-align:center">
   <a href="https://scholar.google.com/citations?hl=en&user=OlyylgMAAAAJ">Google Scholar</a> &nbsp;/&nbsp;
