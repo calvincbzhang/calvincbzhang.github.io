@@ -57,7 +57,15 @@
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
-    <div class="title">{{ entry.title }}</div>
+    <div class="title">
+      {{ entry.title }}
+      {% if entry.oral %}
+        <span style="color: var(--global-theme-color); font-weight: normal;">(Oral)</span>
+      {% endif %}
+      {% if entry.spotlight %}
+        <span style="color: var(--global-theme-color); font-weight: normal;">(Spotlight)</span>
+      {% endif %}
+    </div>
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
