@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: ML Research Ops Lead @ <a href="https://scale.com/">Scale AI</a> | Previously @ <a href="https://humancompatible.ai/">CHAI</a>, <a href="https://mit.edu/">MIT</a>, <a href="https://ethz.ch/en.html">ETH Zurich</a>, and <a href="https://www.manchester.ac.uk/">UoM</a>
+subtitle: ML Research Ops Lead @ <a href="https://scale.com/">Scale AI</a> | Previously @ <a href="https://humancompatible.ai/">CHAI</a>, <a href="https://mit.edu/">MIT</a>, <a href="https://ethz.ch/en.html">ETH Zurich</a>, and <a href="https://www.manchester.ac.uk/">University of Manchester</a>
 
 profile:
   align: right
