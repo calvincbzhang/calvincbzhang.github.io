@@ -5,6 +5,7 @@
  :root {
   --global-bg-color: #{$white-alt};
   --global-code-bg-color: #{$code-bg-color-light};
+  --global-inline-code-bg-color: #{$inline-code-bg-color-light};
   --global-text-color: #{$black-alt};
   --global-text-color-light: #{$grey-color};
   --global-theme-color: #{$light-theme-accent};
@@ -66,6 +67,7 @@
 html[data-theme="dark"] {
   --global-bg-color: #{$black-alt};
   --global-code-bg-color: #{$code-bg-color-dark};
+  --global-inline-code-bg-color: #{$inline-code-bg-color-dark};
   --global-text-color: #{$white-alt};
   --global-text-color-light: #{$grey-color};
   --global-theme-color: #{$dark-theme-accent};
