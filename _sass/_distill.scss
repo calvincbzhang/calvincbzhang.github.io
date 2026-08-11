@@ -48,6 +48,13 @@ d-article {
   b i {
     display: inline;
   }
+
+  table {
+    justify-self: center;
+    width: fit-content;
+    max-width: 100%;
+  }
+
   blockquote {
     border-left: 2px solid var(--global-theme-color) !important;
   }
