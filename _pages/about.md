@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Research Program Manager @ <a href="https://openai.com/">OpenAI</a> | Previously @ <a href="https://scale.com/">Scale AI</a>, <a href="https://humancompatible.ai/">CHAI</a>, <a href="https://mit.edu/">MIT</a>, <a href="https://ethz.ch/en.html">ETH Zurich</a>, and <a href="https://www.manchester.ac.uk/">University of Manchester</a>
+subtitle: Member of Technical Staff @ <a href="https://deepmind.google/">Google DeepMind</a> | Previously @ <a href="https://openai.com/">OpenAI</a> and <a href="https://scale.com/">Scale AI</a>
 
 profile:
   align: right
@@ -20,9 +20,9 @@ scholar:
   order: descending
 ---
 
-I am a Research Program Manager at [OpenAI](https://openai.com/), where I work on evals.
+I'm a Member of Technical Staff at [Google DeepMind](https://deepmind.google/), where I work on evals.
 
-Previously, I was the ML Research Ops Lead at [Scale AI](https://scale.com/), where I focused on designing and running evaluations, developing benchmarks, and managing leaderboards.
+Previously, I worked on evals at [OpenAI](https://openai.com/) as a Research Program Manager and led ML research operations at [Scale AI](https://scale.com/), where I designed evaluations, developed benchmarks, and managed leaderboards.
 
 I also worked as a research intern at [CHAI](https://humancompatible.ai/), where I collaborated with [Micah Carroll](https://micahcarroll.github.io/) on multi-turn red teaming strategies for large language models. Before that, I was a visiting scholar at [MIT](https://mit.edu/), where I focused on online learning and reward design for reinforcement learning with [Zhang-Wei Hong](https://williamd4112.github.io/), [Aldo Pacchiano](https://www.aldopacchiano.ai/), and [Pulkit Agrawal](https://people.csail.mit.edu/pulkitag/).
 
