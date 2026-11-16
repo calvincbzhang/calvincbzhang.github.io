@@ -1,0 +1,26 @@
+{% if include.photos.size > 0 %}
+{% assign photo_rows = include.photos | group_by: 'row' %}
+<div class="photo-gallery l-page">
+  {% for photo_row in photo_rows %}
+    <div class="photo-gallery-row{% if photo_row.size == 4 %} photo-gallery-row--four{% endif %}">
+      {% for photo in photo_row.items %}
+        <div class="photo-gallery-item{% if photo.orientation == 'portrait' %} photo-gallery-item--portrait{% endif %}">
+          {% assign photo_path = include.directory | append: '/' | append: photo.file %}
+          {% assign photo_alt = photo.alt | escape %}
+          <a href="{{ photo_path | relative_url }}">
+            {% include figure.liquid path=photo_path class="img-fluid" alt=photo_alt caption=photo.caption %}
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  {% endfor %}
+  <dialog class="photo-viewer" aria-label="Photo viewer">
+    <button type="button" class="photo-viewer-close" aria-label="Close photo viewer" autofocus></button>
+    <button type="button" class="photo-viewer-previous" aria-label="Previous photo"></button>
+    <div class="photo-viewer-stage"></div>
+    <button type="button" class="photo-viewer-next" aria-label="Next photo"></button>
+    <output class="photo-viewer-position" aria-live="polite"></output>
+  </dialog>
+</div>
+<script type="module" src="{{ '/assets/js/photo-gallery.js' | relative_url | bust_file_cache }}"></script>
+{% endif %}
